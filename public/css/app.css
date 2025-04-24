@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(135deg, #f0f9ff, #e0f7fa, #f8fafc);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.navbar {
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-brand,
+.navbar .btn {
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  padding: 1.5rem 1rem;
+  box-shadow:
+    0 0 8px rgba(59, 130, 246, 0.4),
+    0 0 16px rgba(59, 130, 246, 0.3);
+  border-left: 4px solid #3b82f6;
+  transition: box-shadow 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar .nav-link {
+  color: #4b5563;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.sidebar .nav-link.active {
+  background-color: #3b82f6;
+  color: #fff !important;
+}
+
+.sidebar .submenu .nav-link {
+  padding-left: 2.5rem;
+}
+
+.sidebar .submenu .nav-link.active {
+  background-color: #818cf8;
+  color: #fff !important;
+}
+
+.section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 2rem;
+}
+
+.btn-fun {
+  background: linear-gradient(45deg, #14b8a6, #60a5fa);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.2rem;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-fun:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+
+.card-title {
+  color: #1e40af;
+}
