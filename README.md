@@ -4,6 +4,13 @@ A full-featured library management system built with Laravel. This project utili
 
 ---
 
+## 📄 Download the PDF
+
+[Download the PDF](path/to/your/file.pdf)
+
+---
+
+
 ## 🚀 Features
 
 - ✅ **Book Management**  
