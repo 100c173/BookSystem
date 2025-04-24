@@ -4,7 +4,7 @@ A full-featured library management system built with Laravel. This project utili
 
 ---
 
-## 📄 Download the PDF
+## 📄 ERD
 
 [Download the PDF](./ERD.pdf)
 
